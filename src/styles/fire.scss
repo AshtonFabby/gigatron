@@ -1,0 +1,42 @@
+.fire-hero {
+	background-image: url(../images/fire-bg.png);
+}
+.content {
+	h1 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.image-fix {
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin-bottom: 10px;
+	}
+	h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+}
+.content-fix {
+	padding-bottom: 0 !important;
+}
+@media only screen and (min-width: 1224px) {
+	.content {
+		h1 {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		.image-fix {
+			margin-bottom: 50px;
+		}
+		h2 {
+			margin-bottom: 50px;
+		}
+		h3 {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			font-weight: bold;
+		}
+	}
+}

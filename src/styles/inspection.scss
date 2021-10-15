@@ -1,0 +1,132 @@
+.inspection-hero {
+	background-image: url(../images/inspection-bg.webp);
+	// background-color: red;
+}
+.content {
+	padding: 50px 30px;
+}
+.equipment-boxes {
+	padding: 50px 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	h2 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.last {
+		margin-bottom: 0;
+	}
+}
+
+.mini-services-section {
+	padding: 50px 30px;
+	h1 {
+		margin-bottom: 20px;
+	}
+	.mini-services {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+	.service {
+		position: relative;
+		h2 {
+			position: absolute;
+			bottom: 10%;
+			left: 10%;
+			color: white;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+		}
+	}
+}
+.content-container {
+	padding-left: 30px;
+	padding-right: 30px;
+	h1 {
+		margin-bottom: 20px;
+	}
+	p {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.content {
+		padding: 100px 60px;
+	}
+	.equipment-boxes {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.content-container {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.mini-services-section {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.content {
+		padding: 100px;
+		// p {
+		// 	font-size: 20px;
+		// }
+	}
+	.equipment-boxes {
+		padding-left: 100px;
+		padding-right: 100px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+
+		// h2 {
+		// 	font-size: 24px;
+		// }
+	}
+	.content-container {
+		// p {
+		// 	font-size: 20px;
+		// }
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.mini-services-section {
+		padding: 100px;
+		// padding-right: 100px;
+		.mini-services {
+			flex-direction: row;
+			img {
+				width: 140px;
+				height: 180px;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1224px) {
+	.content {
+		padding-left: 193px;
+		padding-right: 193px;
+	}
+	.equipment-boxes {
+		padding-left: 193px;
+		padding-right: 193px;
+	}
+	.content-container {
+		padding-left: 193px;
+		padding-right: 193px;
+	}
+	.mini-services-section {
+		padding: 100px 193px;
+	}
+	.mini-services {
+		flex-direction: row;
+		img {
+			width: 184px !important;
+			height: 235px !important;
+		}
+	}
+}

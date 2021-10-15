@@ -1,0 +1,69 @@
+@import "global";
+
+.service-hero {
+	background-image: url("../images/service-bg.webp");
+}
+
+.offer {
+	padding: 50px 30px;
+}
+
+.equipment-section {
+	padding: 50px 30px;
+	.equipment {
+		margin: 30px auto;
+		.text {
+			margin-top: 30px;
+			h2 {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.offer {
+		padding: 100px 60px;
+	}
+	.equipment-section {
+		padding: 100px 60px;
+		.equipment {
+			display: flex;
+			gap: 30px;
+			align-items: center;
+			justify-items: center;
+			.text {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.offer {
+		padding: 100px;
+	}
+	.equipment-section {
+		padding: 100px;
+	}
+}
+
+@media only screen and (min-width: 1224px) {
+	.offer {
+		padding-left: 193px;
+		padding-right: 193px;
+	}
+	.equipment-section {
+		padding-left: 193px;
+		padding-right: 193px;
+		img {
+			width: 223px;
+		}
+		h2 {
+			font-size: 27px;
+		}
+		p {
+			font-size: 24px !important;
+		}
+	}
+}

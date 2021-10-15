@@ -1,0 +1,34 @@
+@import "global";
+
+@media only screen and (min-width: 1024px) {
+	.contacts {
+		display: flex !important;
+		gap: 20px;
+		font-size: 14px;
+
+		.contact {
+			display: flex;
+			gap: 5px;
+			p {
+				margin: auto;
+			}
+			img {
+				margin: auto;
+			}
+		}
+	}
+	.topnav {
+		color: $accent;
+		display: flex !important;
+		justify-content: space-between;
+		background-color: $primary;
+		padding: 16px 196px;
+		font-size: 14px !important;
+	}
+	.socials {
+		display: flex;
+		gap: 10px;
+		// justify-items: center !important;
+		// justify-content: center !important;
+	}
+}

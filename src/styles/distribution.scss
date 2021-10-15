@@ -1,0 +1,29 @@
+.distribution-hero {
+	background-image: url(../images/distribution-bg.png);
+}
+.chemicals {
+	margin-bottom: 20px;
+	.chemical {
+		margin-bottom: 10px;
+		p {
+			text-align: center;
+		}
+	}
+}
+.f3-fix {
+	text-align: center;
+	line-height: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+	.chemicals {
+		display: flex;
+		gap: 20px;
+	}
+	.p-fix {
+		margin-bottom: 50px;
+	}
+	.image-fix-2 {
+		margin-bottom: 50px !important;
+	}
+}

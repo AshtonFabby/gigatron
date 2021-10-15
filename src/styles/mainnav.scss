@@ -1,0 +1,90 @@
+@media only screen and (min-width: 1024px) {
+	@import "global";
+
+	.main-nav {
+		.gatsby-image-wrapper {
+			box-shadow: none;
+		}
+		display: flex;
+		padding: 20px 196px;
+		background-color: #ffffff;
+
+		.inner-nav {
+			a {
+				// background-color: blue;
+				color: #000000;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-weight: bold;
+				padding: 20px;
+				font-size: 18px;
+				transition: all 0.4s ease;
+			}
+			a:hover {
+				transition: all 0.4s ease;
+				color: $primary;
+			}
+			display: flex;
+			gap: 40px;
+			margin: auto;
+		}
+		.outer {
+			border: none;
+			background-color: $primary;
+			color: #ffff;
+			width: 200px;
+			height: 50px;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all 0.4s ease;
+		}
+		.outer:hover {
+			background-color: #23694c;
+			transition: all 0.4s ease;
+		}
+		.dropdown {
+			position: relative;
+			cursor: pointer;
+			background-color: #ffffff;
+			margin-top: 16px;
+			position: absolute;
+			opacity: 0;
+			pointer-events: none;
+			transform: translateY(-10px);
+			transition: all 0.4s ease;
+			.inner {
+				border: none;
+				background: none;
+				font-size: 18px;
+				text-transform: uppercase;
+				font-weight: bold;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+			}
+			inner:hover {
+				color: #23694c;
+			}
+
+			ul {
+				li {
+					// background-color: aqua;
+					padding: 8px 10px;
+					font-size: 16px;
+					font-weight: normal;
+				}
+				li:hover {
+					background-color: $primary;
+					color: #ffffff;
+				}
+			}
+		}
+		.dropdown button:focus + ul {
+			opacity: 1;
+			pointer-events: all;
+			transform: translateY(0px);
+		}
+	}
+}
