@@ -11,7 +11,7 @@ import TopNav from "./components/topnav";
 const DistribtionPage = () => {
     return (
         <main>
-            <title>Distribition</title>
+            <title>Gigatron | Distribition</title>
             <TopNav />
             <MobileNav />
             <MainNav />

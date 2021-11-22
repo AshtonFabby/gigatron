@@ -11,7 +11,7 @@ import TopNav from "./components/topnav";
 const FireSystemPage = () => {
     return (
         <main>
-            <title>Fire System</title>
+            <title>Gigatron | Fire System</title>
             <TopNav />
             <MobileNav />
             <MainNav />
@@ -60,6 +60,14 @@ const FireSystemPage = () => {
                 <h3>Powder Fire Extinguishers</h3>
                 <p>Powder extinguishers are multipurpose because they can be used on Class A, B and C fires. </p>
                 <h3>Fire Safety Signs</h3>
+                <div className="fire-signs">
+                    <StaticImage src="../images/sign1.png" />
+                    <StaticImage src="../images/sign2.png" />
+                    <StaticImage src="../images/sign3.png" />
+                    <StaticImage src="../images/sign4.png" />
+                    <StaticImage src="../images/sign5.png" />
+                    <StaticImage src="../images/sign6.png" />
+                </div>
             </div>
 
 

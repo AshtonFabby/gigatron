@@ -33,10 +33,10 @@ const MainNav = () => {
 						</div>
 
 					</Link> */}
-					<Link to="/">Contact</Link>
+					<Link to="/contact">Contact</Link>
 
 				</div>
-				<Link to="/"><button className="outer">request a quote</button></Link>
+				<a href="mailto:info@gigatroneng.com?subject=request a quote"><button className="outer">request a quote</button></a>
 			</div>
 		</div>
 	)

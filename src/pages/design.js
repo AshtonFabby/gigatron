@@ -11,7 +11,7 @@ import TopNav from "./components/topnav";
 const DesignPage = () => {
     return (
         <main>
-            <title>Design</title>
+            <title>Gigatron | Design</title>
             <TopNav />
             <MobileNav />
             <MainNav />

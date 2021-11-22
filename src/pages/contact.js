@@ -12,7 +12,7 @@ import pin from "../images/pin-black.svg";
 const ContactPage = () => {
     return (
         <main>
-            <title>Contact</title>
+            <title>Gigatron | Contact</title>
             <TopNav />
             <MainNav />
             <MobileNav />
@@ -31,7 +31,7 @@ const ContactPage = () => {
                 </div>
                 <div className="contact">
                     <img src={email} alt="email icon" />
-                    <p>info@gigatroning.com</p>
+                    <p>info@gigatroneng.com</p>
                 </div>
                 <div className="contact">
                     <img src={pin} alt="location icon" />
@@ -45,19 +45,18 @@ const ContactPage = () => {
             </div>
 
             <div className="country">
-                <h2>zimbabwean offices</h2>
+                <h2>zambian offices</h2>
                 <div className="contact">
                     <img src={phone} alt="phone icon" />
-                    <p>+263 000 0000</p>
+                    <p>+260968383300</p>
                 </div>
                 <div className="contact">
                     <img src={email} alt="email icon" />
-                    <p>info@gigatroning.com</p>
+                    <p>info@gigatroneng.com</p>
                 </div>
                 <div className="contact">
                     <img src={pin} alt="location icon" />
-                    <p>19 Nuffield Road, Workington,
-                        Harare, Zimbabwe </p>
+                    <p>Suite 137 David Mwila House, President Avenue Town Centre, Copperbelt Province Zambia.</p>
                 </div>
                 <div className="map">
 

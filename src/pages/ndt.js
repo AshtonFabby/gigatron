@@ -11,7 +11,7 @@ import TopNav from "./components/topnav";
 const NDTPage = () => {
     return (
         <main>
-            <title>NDT</title>
+            <title>Gigatron | NDT</title>
             <TopNav />
             <MobileNav />
             <MainNav />

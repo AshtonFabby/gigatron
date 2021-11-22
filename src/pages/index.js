@@ -19,9 +19,8 @@ SwiperCore.use([Autoplay, Navigation]);
 const IndexPage = () => {
 	return (
 
-
 		<main>
-			<title>Home</title>
+			<title>Gigatron | Home</title>
 			<TopNav />
 			<MainNav />
 			<MobileNav />
@@ -34,7 +33,7 @@ const IndexPage = () => {
 						approaches to delivering projects,
 						ensuring the best outcome possible
 					</h2>
-					<button>request a quote</button>
+					<a href="mailto:info@gigatroneng.com?subject=request a quote"><button>request a quote</button></a>
 				</div>
 			</div>
 
@@ -66,7 +65,7 @@ const IndexPage = () => {
 					<div className="container">
 						<StaticImage src="../images/ndt-home.png" alt="ndt testing" />
 						<div className="text">
-							<h2>Non Destructive Testing</h2>
+							<Link to="/ndt"><h2>Non Destructive Testing</h2></Link>
 							<p>We use a combination of inspection
 								techniques to evaluate materials,
 								components and systems,

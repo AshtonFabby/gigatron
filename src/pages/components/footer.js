@@ -18,10 +18,10 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="form">
                     <h1>get in touch</h1>
-                    <form>
-                        <input type="text" placeholder="Name" />
-                        <input type="email" placeholder="Email" />
-                        <textarea palceholder="Message"></textarea>
+                    <form action="https://formsubmit.co/info@gigatroneng.com" method="POST">
+                        <input type="text" name="name" placeholder="Name" />
+                        <input type="email" name="email" placeholder="Email" />
+                        <textarea palceholder="Message" name="message"></textarea>
                         <button>submit</button>
                     </form>
                 </div>

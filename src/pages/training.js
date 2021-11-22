@@ -11,7 +11,7 @@ import TopNav from "./components/topnav";
 const TrainingPage = () => {
     return (
         <main>
-            <title>Training</title>
+            <title>Gigatron | Training</title>
             <TopNav />
             <MobileNav />
             <MainNav />

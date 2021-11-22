@@ -24,7 +24,7 @@ const MobileNav = () => {
                 <Link to="/about">about us</Link>
                 <Link to="/services">services</Link>
                 <Link to="/contact">contact</Link>
-                <button>request a quote</button>
+                <a href="mailto:info@gigatroneng.com?subject=request a quote"><button>request a quote</button></a>
             </div>
         </div>
     )

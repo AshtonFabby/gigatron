@@ -11,7 +11,7 @@ import TopNav from "./components/topnav";
 const ServicesPage = () => {
     return (
         <main>
-            <title>services</title>
+            <title>Gigatron | Services</title>
             <TopNav />
             <MainNav />
             <MobileNav />
@@ -34,7 +34,7 @@ const ServicesPage = () => {
                     <div className="container">
                         <StaticImage src="../images/ndt-home.png" alt="ndt testing" />
                         <div className="text">
-                            <h2>Non Destructive Testing</h2>
+                            <Link to="/ndt"><h2>Non Destructive Testing</h2></Link>
                             <p>We use a combination of inspection
                                 techniques to evaluate materials,
                                 components and systems,

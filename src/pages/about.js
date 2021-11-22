@@ -17,7 +17,7 @@ import vision from "../images/vision.svg";
 const AboutPage = () => {
     return (
         <main>
-            <title>Home</title>
+            <title>Gigatron | About</title>
             <TopNav />
             <MainNav />
             <MobileNav />

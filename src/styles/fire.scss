@@ -21,6 +21,14 @@
 .content-fix {
 	padding-bottom: 0 !important;
 }
+.fire-signs {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	.gatsby-image-wrapper {
+		box-shadow: none;
+	}
+}
 @media only screen and (min-width: 1224px) {
 	.content {
 		h1 {
@@ -38,5 +46,12 @@
 			margin-bottom: 50px;
 			font-weight: bold;
 		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.fire-signs {
+		display: grid !important;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
